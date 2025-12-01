@@ -1,0 +1,53 @@
+ovpay=0
+sum=0
+for i in range(1,11):
+    print("enter working hours of emp",i,":")
+    h=int(input())
+    if(h>40):
+        extra=h-40
+        ovpay=extra*12
+        print("over time pay of emp",i,"is",ovpay)
+        sum=sum+ovpay
+    else:
+        print("no overtime pay")
+        print("total overtime of all emloyees:",sum)ov
+
+
+Output:
+enter working hours of emp 1 :
+30
+no overtime pay
+total overtime of all emloyees: 0
+enter working hours of emp 2 :
+56
+over time pay of emp 2 is 192
+enter working hours of emp 3 :
+23
+no overtime pay
+total overtime of all emloyees: 192
+enter working hours of emp 4 :
+67
+over time pay of emp 4 is 324
+enter working hours of emp 5 :
+43
+over time pay of emp 5 is 36
+enter working hours of emp 6 :
+65
+over time pay of emp 6 is 300
+enter working hours of emp 7 :
+12
+no overtime pay
+total overtime of all emloyees: 852
+enter working hours of emp 8 :
+40
+no overtime pay
+total overtime of all emloyees: 852
+enter working hours of emp 9 :
+34
+no overtime pay
+total overtime of all emloyees: 852
+enter working hours of emp 10 :
+70
+over time pay of emp 10 is 360
+
+=== Code Execution Successful ===
