@@ -1,0 +1,5 @@
+l=[2,54,45,7,65,99,23,76]
+print(l)
+m=min(l)
+print("the minimum element is:",m)
+print("index of minimum element is:",l.index(m))
